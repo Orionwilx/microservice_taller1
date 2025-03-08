@@ -8,36 +8,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for products" enabled="true">
+      <profile name="Annotation profile for microserviceTaller" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="inventary" />
-        <module name="product" />
-        <module name="payment" />
-        <module name="products" />
-        <module name="order" />
+        <module name="product-service" />
+        <module name="payment-service" />
+        <module name="inventory-service" />
+        <module name="order-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo" target="21" />
-      <module name="inventory-service" target="17" />
-      <module name="order-service" target="17" />
-      <module name="payment-service" target="17" />
-      <module name="product-service" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
-      <module name="inventary" options="-parameters" />
-      <module name="order" options="-parameters" />
-      <module name="payment" options="-parameters" />
-      <module name="product" options="-parameters" />
-      <module name="products" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="product-service" options="-parameters" />
     </option>
   </component>
 </project>
