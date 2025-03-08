@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MicroserviceActividad1.iml" filepath="$PROJECT_DIR$/MicroserviceActividad1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/inventary/inventary.iml" filepath="$PROJECT_DIR$/inventary/inventary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/products/products.iml" filepath="$PROJECT_DIR$/products/products.iml" />
     </modules>
   </component>
 </project>

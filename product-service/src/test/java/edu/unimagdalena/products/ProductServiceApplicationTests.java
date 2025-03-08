@@ -1,4 +1,4 @@
-package edu.unimagdalena.productservice;
+package edu.unimagdalena.products;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

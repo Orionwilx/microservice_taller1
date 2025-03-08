@@ -78,7 +78,7 @@ services:
       SPRING_DATASOURCE_PASSWORD: pwd3
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
     ports:
-      - "8180:8080"
+      - "8280:8080"
 
   mongo:
     image: mongo:6.0
@@ -99,7 +99,7 @@ services:
       SPRING_DATA_MONGODB_URI: mongodb://mongo:27017/porductdb
 
     ports:
-      - "8280:8080"
+      - "8380:8080"
 volumes:
   order_pgdata:
   inventory_pgdata:
